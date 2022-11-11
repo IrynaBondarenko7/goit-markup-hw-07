@@ -46,8 +46,8 @@
   margin: 0 auto;
   border: none;
   transition: var(--transition-time-btn-hover);
-}
-.button:focus,
-.button:hover {
-  background-color: var(--button-hover);
+  &:focus,
+  &:hover {
+    background-color: var(--button-hover);
+  }
 }
