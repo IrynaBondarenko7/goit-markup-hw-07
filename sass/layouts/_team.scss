@@ -47,8 +47,9 @@
 }
 .social-list__icon {
   fill: var(--social-color);
-}
-.social-list__link:hover svg,
-.social-list__link:focus svg {
-  fill: var(--white-color);
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: var(--white-color);
+  }
 }
